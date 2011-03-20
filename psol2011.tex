@@ -1,0 +1,951 @@
+\documentclass[12pt,a4paper,titlepage]{article}
+
+% Input encoding
+\usepackage[utf8x]{inputenc}
+\usepackage[T1,T2A]{fontenc}
+\usepackage[english,russian,german]{babel}
+
+\usepackage{dramatist}
+
+\author{Lev Mirkin}
+\title{Purimspiel Oldenburg 2011}
+
+\begin{document}
+\maketitle
+
+
+% Russian improvements
+\renewcommand{\casttitlename}{Действующие лица}
+
+% Make scene in the kind of "Kartina 1"
+\renewcommand{\scenename}{Картина}
+\renewcommand{\thescene}{\arabic{scene}}
+\renewcommand{\printscenenum}{\scenenumfont \thescene}
+
+% Make titles and speakers bold
+\renewcommand{\casttitlefont}{\bfseries\scshape\large} % Make "dramatis personae" actually smaller
+\renewcommand{\scenenamefont}{\bfseries\scshape\large}
+\renewcommand{\speaksfont}{\bfseries\scshape}
+
+% Insert distance before a scene
+\setlength{\beforesceneskip}{30pt}
+
+
+\Character[Ведущий, он же переводчик]{Erzähler}{ue}
+\Character[Мордехай]{Мордехай}{m}
+\Character[Ахашверош]{Ахашверош}{ah}
+\Character[Вашти]{Вашти}{v}
+\Character[Аман]{Аман}{am}
+\Character[Эстер]{Эстер}{e}
+
+\DramPer
+
+
+
+\addtocounter{scene}{-1}
+\Scene{ -- Вступление}
+
+\StageDir{Музыка танцевальная еврейская.\par Nach der ersten Strophe kommt der \ue vor die Bühne}
+
+\begin{drama}
+
+\uespeaks
+Wir sind heute zusammen gekommen, um gemeinsam das Purim-Fest zu feiern.
+Ein Fest des Sieges des Jüdischen Volkes über die bösen Mächte. Ich möchte
+euch diese Geschichte gleich erzählen, und die Puppen des Figurentheaters Lappanoptikum
+werden mir bei dieser Gelegenheit helfen.
+
+
+\scene
+
+\StageDir{Занавес открывается. На сцену выходит \m.}
+
+\mspeaks
+Schalom, ich begrüße die ganze Welt, und das Jüdische Volk und Sie alle, liebe Zuschauer!
+\direct{dem Erzähler} Was für ein schöner und friedlicher Abend, Herr Erzähler.
+Aber, ich höre gerade einige verdächtige Stimmen. Wer kann es sein?
+
+\StageDir{\m и \ue прячутся.\\Открывается окошко. В нём две головы.}
+
+\speaker{Головы} \direct{Поют на мотив \textsc{Бяки-Буки}}
+\begin{verse}
+Говорят мы террористы\\
+И не любит нас народ,\\
+Не танцуем танцы твисты\\
+А совсем наоборот.\\
+\end{verse}
+
+\begin{verse}
+Ой-ля-ля ой-ля-ля,\\
+Завтра свергнем мы царя,\\
+Ой-ля-ля ой-ля-ля,\\
+Эх, ма!\\
+\end{verse}
+
+\uespeaks
+Schalom, Herr Mordechai. Es sind die Generäle. In den friedlichen Zeiten bekommen
+sie Langeweile, und fangen Blödsinn an. Sie wollen unseren Herrscher, Achaschwerosch, entthronen.
+
+\mspeaks \direct{dem Erzähler}
+Oh, dann muss ich mich beeilen und darüber dem Achaschwerosch berichten.
+Die Geschichte lehrt uns, dass in den unsicheren Zeiten immer die Juden bestraft wurden.
+
+\StageDir{\m уходит.}
+
+
+\scene
+
+\StageDir{Выходит \ah.}
+
+\ahspeaks \direct{dem Erzähler}
+A-ha, das Volk hat sich gerade versammelt, wie ich sehe. Gut. Dann lese ich
+meine Ansprache an die Versammlung der Nationen vor. Du –- bist du Dolmetscher?
+Gut, du wirst sie übersetzen. \direct{Zum begleitenden Musiker} Maestro-e-musica, mach Musik!
+
+\ahspeaks \direct{Поёт на мотив \textsc{Бяки-Буки}}
+\begin{verse}
+Говорят: цари -- плохие,\\
+Как же терпит их народ?\\
+Демократов расплодили,\\
+А у нас -- наоборот!\\
+\end{verse}
+
+\begin{verse}
+\textit{Припев}\\
+Ой-ля-ля ой-ля-ля,\\
+Персы любят короля,\\
+Ой-ля-ля ой-ля-ля,\\
+Эх, ма!\\
+\end{verse}
+
+\begin{verse}
+С добрым утром, персияне,\\
+Мой народ, моя родня!\\
+Я без мысли об Иране\\
+Не могу прожить и дня.\\
+\end{verse}
+
+\begin{verse}
+\textit{Припев}\\
+\end{verse}
+
+\begin{verse}
+Ночью встану у окна я\\
+И стою совсем без сна:\\
+Как там Персия родная,\\
+Как там бедная она?\\
+\end{verse}
+
+\begin{verse}
+\textit{Припев}\\
+\end{verse}
+
+\uespeaks
+In dieser Ansprache besingt unser demokratielenkender Herrscher seine Sorge
+um sein Reich. Er betont, dass er vor Kummer fast keinen Appetit mehr hat –-
+er kann den Kaviar nicht herunterschlucken! Und schlafen nach dem üppigen Essen
+kann er auch nicht gut; vor Kummer, versteht sich.
+
+
+\scene
+
+\StageDir{На сцену выходит \m.}
+
+\mspeaks \direct{Поёт на мотив \textsc{Какая чудная земля}}
+\begin{verse}
+Какая чудная земля\\
+Родная Персия твоя\\
+И счастливо живут в ней все народы.\\
+Но в ней я заговор раскрыл\\
+К тебе я сразу поспешил,\\
+Чтоб не терять иллюзию свободы.\\
+\end{verse}
+
+\uespeaks
+Mordechai erstattete dem Herrscher genauestens Bericht über den Komplott der Generäle.
+
+\ahspeaks \direct{Кладёт руку Мордехаю на плечо.\\Поёт на мотив \textsc{Какая чудная земля}}
+\begin{verse}
+Ты молодец, что прибежал\\
+И мне об этом рассказал.\\
+Казнить их всех! Предатели! Путчисты!\\
+\end{verse}
+
+\begin{verse}
+Тебя я позже награжу,\\
+Сейчас на пир я поспешу.\\
+Лехаим всем! Убиты террористы!\\
+\end{verse}
+
+\StageDir{Вылетают чалмы казнённых.}
+
+\uespeaks
+Die Generäle wurden hingerichtet. Der Zar hat dem Mordechai versprochen ihn zu belohnen,
+aber später. Er selbst ist zu Feierlichkeiten gegangen.
+
+\StageDir{\ah уходит.}
+
+
+\scene
+
+\mspeaks \direct{Поёт на мотив \textsc{Мой костёр в тумане светит}}
+\begin{verse}
+Мой народ по миру бродит,\\
+На земле чужой живёт,\\
+Счастья там он не находит,\\
+Всё о родине поёт.\\
+\end{verse}
+
+\begin{verse}
+Я принёс царю прошенье:\\
+Отпусти ты мой народ,\\
+У царя ж другое мненье --\\
+Он свободы не даёт.\\
+\end{verse}
+
+\uespeaks
+Mordechai wollte sein Volk aus persischer Herrschaft befreien,
+Achaschwerosch wollte ihn aber nicht hören.
+
+
+\scene
+
+\StageDir{Сцена пустая. Шум за сценой, звон бокалов.\\Входит \ah.}
+
+\ahspeaks \direct{В зал}
+\begin{verse}
+У меня жена, ой красавица!\\
+Да, красавица, всем понравится.\\
+\end{verse}
+
+\uespeaks
+Achaschwerosch will seine Frau den Gästen präsentieren.
+
+\ahspeaks
+Mein Weib, Waschti, komm zu uns und tanzt vor meinen Gästen!
+
+\vspeaks
+Ich bin keine Tänzerin, sondern die Zarin!
+
+\ahspeaks \direct{Поёт на мотив \textsc{Ты ж меня обманула}}
+\begin{verse}
+Приказал тебе я в среду --\\
+Приходи ты до обеду.\\
+Все пришли тебя нема\\
+Как меня ты подвела!\\
+\end{verse}
+
+\begin{verse}
+\textit{Припев}\\
+Ты ж меня обманула!\\
+Ты ж меня подвела!\\
+Пред гостями всенародно опозорила царя!\\
+\end{verse}
+
+Какой скандал!
+
+\uespeaks
+Ein Skandal! Und das Unheil hat begonnen.
+
+
+\scene
+
+\StageDir{На сцену выходит \v.}
+
+\vspeaks \direct{Поёт на мотив \textsc{Когда б имел златые горы}}
+\begin{verse}
+Сулил ты мне златые горы\\
+И реки полные вина.\\
+Ждала напрасно эти годы,\\
+И чаша выпита до дна!\\
+\end{verse}
+
+\begin{verse}
+Тебя не видим месяцами,\\
+Гаремный говорит народ,\\
+Что он с распутными друзьями\\
+Всё наше царство разорит!\\
+\end{verse}
+
+\uespeaks
+\ldots
+
+\ahspeaks \direct{Поёт на мотив \textsc{Когда б имел златые горы}}
+\begin{verse}
+Зачем ты, Вашди, перед всеми\\
+Такие вещи говоришь.\\
+Ты сеешь бунт в моём гареме,\\
+Эмансипацию плодишь!\\
+\end{verse}
+
+\begin{verse}
+Я не позволю предо мною\\
+Такие речи говорить.\\
+Ты подрываешь все устои --\\
+Придётся мне тебя казнить\\
+Ты подрываешь все устои --\\
+\direct{Приказным тоном} Палач, казнить её, казнить!\\
+\end{verse}
+
+\StageDir{Треск барабанов. \v проваливается.}
+
+\uespeaks
+Achaschwerosch war wütend und hat Waschti hinrichten lassen. In diesen früheren Zeiten
+hat der Kampf der Frauen für Emanzipation sehr oft zur Hinrichtung geführt.
+
+\scene
+
+\StageDir{Выходит \am. В зале шум и свист.}
+
+\uespeaks
+Hamann kommt!
+
+\ahspeaks
+Что такое?
+
+\amspeaks
+Народ не желает строительства подземного караван-сарая. Говорят~-- слишком дорого.
+
+\ahspeaks
+А ты их холодной водичкой полей, остуди!
+
+\amspeaks
+Это гениально!!!
+
+\vdots
+
+\amspeaks
+Mein Herr, dein erster Minister wirft sich bescheiden zu deinen Füßen.
+Wie du mir befohlen hast, habe ich für dein Reich eine Hymne entworfen.
+
+\amspeaks \direct{Поёт на мотив \textsc{Боже царя храни}}
+\begin{verse}
+Боже царя храни\\
+Царствуй любимый,\\
+Царствуй всесильный\\
+Во славу нам!\\
+\end{verse}
+
+\ahspeaks
+Ja-ja, nicht schlecht, man braucht noch Nacharbeiten, aber immer hin. 
+Однако мне больше нравиться мотив \direct{напевает первые четыре такта \textsc{Хава нагила}}.
+Und jetzt -- das Wichtigste!
+
+\ahspeaks \direct{Поёт на мотив \textsc{Шаланды полные кефали}}
+\begin{verse}
+Давай не будем тратить время,\\
+Казнил я Вашди сгоряча.\\
+Теперь вакансия в гареме,\\
+Аман, дружище, выручай!\\
+\end{verse}
+
+\uespeaks
+Achaschwerosch bat Hamann, ihm eine neue Frau zu finden.
+
+\amspeaks \direct{Поёт на мотив припева \textsc{Смуглянка}}
+\begin{verse}
+Что за горе? Не печалься, дорогой!\\
+Мы тя женим хоть сегодня на другой!\\
+Вытри слезы, вытри слезы, мой любимый, родной!\\
+А в заначке, я признАюсь не тая --\\
+Есть каталог всех красоток для тебя,\\
+Всех красоток, что мечтают стать женою царя!\\
+\end{verse}
+
+\uespeaks
+Hamann bietet Achaschwerosch die Bildzeitung mit Aktbildern.
+
+\ahspeaks
+Nur keine Gewerkschaftsmitglieder und Parteifunktionärinnen!
+
+\amspeaks
+Ihr seid aber wählerisch geworden! Dann soll ich mich an ElitePartner.de wenden.
+Da sind alle Schönheiten von der Vergangenheit bis in die Zukunft dargestellt --
+von Eva bis Angela.
+
+
+\scene
+
+\StageDir{Выходит \e. Звучит мелодия песни \textsc{Бублички}.}
+
+\uespeaks
+Da ist unsere Esther, die schöne Adoptivtochter unseres treuen Mordechai.
+Ein gut erzogenes, bescheidenes, sehr intelligentes Mädchen.
+
+\ahspeaks \direct{Поёт на мотив \textsc{Очи чёрные}}
+\begin{verse}
+Очи черные, очи жгучие,\\
+Очи страстные и прекрасные,\\
+Как люблю я вас.\\
+Как хочу я вас!\\
+Подойди ко мне,\\
+Этот час для нас!\\
+\end{verse}
+
+\espeaks
+Was soll das? Ich bin ein anständiges Mädchen. Neulich habe ich
+einen Heiratsantrag vom Herzog von Oldenburg höchstpersönlich bekommen!
+
+\uespeaks
+Und?
+
+\espeaks
+Abgelehnt! Zu klein für meine Maßstäbe. Und wer ist der?
+
+\uespeaks
+Achaschwerosch, Herrscher des Persischen Reiches.
+
+\espeaks
+Oh!
+
+\ahspeaks \direct{Поёт влюблённно на мотив \textsc{Как много девушек хороших}}
+\begin{verse}
+Как много девушек хороших,\\
+Как много ласковых имён,\\
+Но ты одна меня пленила,\\
+Я потерял покой и сон,\\
+И я влюблён!\\
+\end{verse}
+
+\begin{verse}
+\textit{Припев}\\
+Эстер, как хорошо, что ты такая,\\
+Эстер, с тобой хочу всю жизнь прожить,\\
+Эстер, к твоим ногам я припадаю,\\
+Готов полцарства за нежность взгляда подарить!\\
+\end{verse}
+
+\espeaks \direct{Поёт на мотив \textsc{Как много девушек хороших}}
+\begin{verse}
+Его признанье очень лестно,\\
+Хоть он, увы, не Соломон\ldots\\
+Но предложенье -- интересно,\\
+И с царём персидским я взойду на трон!\\
+\end{verse}
+
+\StageDir{\ah и \e поют по очереди на мотив припева}
+
+\speaker{А.}
+Эстер, принять готова предложенье?
+
+\speaker{Э.}
+Прежде составим брачный мы контракт.
+
+\speaker{А.}
+Эстер, пойми, пойми моё стремленье --\\
+Всё после свадьбы, всё подписать я буду рад!
+
+\speaker{Э.} \direct{Поёт на мотив \textsc{Как много девушек хороших}}
+\begin{verse}
+Ах, нет, мой козлик, что я слышу!\\
+У нас к царям доверья нет.\\
+Контракт с раввином мы подпишем,\\
+Потом -- хупа, потом -- банкет. Потом -- банкет!\\
+\end{verse}
+
+\speaker{А.}
+Может, сегодня свадьба -- завтра подпись?
+
+\speaker{Э.}
+Нет уж -- всё хочешь ты наоборот.
+
+\speaker{А.}
+Может, под вечер свадьба -- утром подпись­­?
+
+\speaker{Э.}
+Конечно, можно! Но только подписи -- вперёд!
+
+\vspace{3ex}
+
+\uespeaks
+So intelligent, wie sie war, hat Esther den Heiratsantrag nicht wiederholen lassen.
+
+\vspace{3ex}
+
+\espeaks
+Хупу закажем в Германии. Ольденбургская хупа -- лучшая хупа в мире.
+
+\ahspeaks
+Ты не очень-то размахивайся. На царьарбайтслёзенгельд особо не пошикуешь.
+
+\espeaks
+Возьмём напрокат.
+
+\scene
+
+\StageDir{Музыка.
+          \par Служка приносит хупу, подаёт её рассказчику. Рассказчик устанавливает хупу.
+          Служка просит жестом чаевые.}
+
+\uespeaks
+Majestät, er möchte Trinkgeld haben.
+
+\ahspeaks
+Habe nur große Geldscheine. Gib ihm das Geld, ich gebe es dir später.
+
+\uespeaks
+Jawohl, Majestät! \direct{В сторону, со злостью} Verdammt, warum immer ich?
+
+\StageDir{Рассказчик даёт служке купюру. Служка удаляется.}
+
+\StageDir{Рассказчик устанавливает хупу. Жених и невеста становятся под хупу.
+          У невесты в руках свиток, у жениха -- стакан. Он бросает стакан.
+          Жених и невеста целуются и уходят.}
+
+\uespeaks
+Und so ist es geschehen. Die schöne jüdische Tochter Esther
+wurde Frau des Herrschers des Persischen Reiches. Masel tow!
+
+
+\scene
+
+\StageDir{Входит \m. С другой стороны -- \am.\\Шум в зале.}
+
+\amspeaks
+Опять бунт на корабле? Я сказал -- ША!
+
+\amspeaks \direct{Стихами}
+\begin{verse}
+Что стоишь, как истукан?\\
+Припади к моим ногам,\\
+Иль не видишь -- пред тобою\\
+Сам великий князь Аман!\\
+\end{verse}
+
+\mspeaks \direct{Стихами}
+\begin{verse}
+Здравствуй, здравствуй князь Аман!\\
+Хоть велик твой княжий сан,\\
+Ты не б-г, чтобы еврею\\
+Припадать к твоим ногам.\\
+\end{verse}
+
+\amspeaks
+\begin{verse}
+Ах, так, еврей? Ну, погоди!\\
+Встреча будет впереди!\\
+\end{verse}
+
+\StageDir{\m и \am сердито уходят.}
+
+\uespeaks
+So lebten sie einige Zeit. Der gute Mordechai war fleißig und gut,
+und der böse Hamann war neidisch und, wie gesagt, böse. Er suchte
+immer nach einer Möglichkeit, den Mordechai zu vernichten.
+
+
+\scene
+
+\StageDir{На сцену выходит \ah.}
+
+\ahspeaks \direct{Напевает на мотив \textsc{Крутится вертится шар голубой}}
+\begin{verse}
+Что-то не спится мне вот уж три дня,\\
+Мысли о кризисе гложат меня.\\
+Их не могу я никак разрешить,\\
+Нужно Амана об этом спросить.\\
+Где же Аман, где советничек мой?\\
+Жду с нетерпением встречи с тобой!\\
+\end{verse}
+
+\StageDir{Входит \am.}
+
+\ahspeaks
+\begin{verse}
+Вот и Аманчик, советничек мой,\\
+Очень я рад нашей встрече с тобой!\\
+\end{verse}
+
+\StageDir{\am кланяется.}
+
+\ahspeaks
+\begin{verse}
+Что ж во дворец не приходишь, дружок,\\
+Где пропадал и откуда прибёг?\\
+Очень мне нужен совет верный твой:\\
+В Персии кризис, развал и застой.\\
+\end{verse}
+
+\uespeaks
+In dieser Zeit sind in Persien gleichzeitig eine große Dürre,
+eine Plage und eine Finanzkrise aufgebrochen.
+
+Wie beseitigen wir das Alles, mein treuer Hamann?
+–- fragte Achaschwerosch seinen ersten Minister.
+
+\amspeaks \direct{Поёт на мотив \textsc{Крутится вертится шар голубой}}
+\begin{verse}
+Что говоришь-то, развал и застой?\\
+Как не помочь -- вот рецептик простой:\\
+Я кстати пасквиль один написал,\\
+Чтобы народ про виновных узнал.\\
+\end{verse}
+
+\begin{verse}
+Эти злодеи к Сиону сошлись\\
+И всему миру вредить поклялись.\\
+Кризис придумали, крах и дефолт.\\
+Есть, говорят, обо всём протокол!\\
+\end{verse}
+
+\begin{verse}
+Ты бы указик мне тут подписал,\\
+Я бы его чёрной сотне раздал:\\
+Пусть веселится, гуляет народ --\\
+Мысль о кризисе враз пропадёт!\\
+\end{verse}
+
+
+\uespeaks
+Das Wort "`beseitigen"' hat dem Hamann sehr gut gepasst. Er weiß,
+was man beseitigen soll, um bei der Bevölkerung populär zu werden.
+Juden! Er hat Achaschwerosch eine vollkommen gelogene Geschichte
+über Zionisten erzählt, die angeblich die ganze friedliche totalitäre Welt
+vernichten wollen!
+
+\ahspeaks
+So einfach?
+
+\amspeaks
+Einfach genial!
+
+\ahspeaks
+Wie viel Zeit brauchst du für die Vorbereitung?
+
+\amspeaks
+Einen Monat, und am 14. Adar zerschlagen wir mit dem Pogrom
+das internationale Zionistische Komplott!
+
+\StageDir{\ah подписывает указ.\\ \am уходит.}
+
+\ahspeaks \direct{ему вслед}
+Ну, давай, работай, работай!
+
+
+\scene
+
+\StageDir{Появляется \m.}
+
+\ahspeaks \direct{обращаясь к Мордехаю}
+Sei gegrüßt, mein Schwager! Na, alles klar? Du, Mordechai,
+Hamann hat mir heute ein Projekt vorgestellt. Heißt
+"`Krisenbekämpfung im Persischen Reich"'. Wirst du Mitinvestor?
+
+\mspeaks
+Zu Euren Diensten, mein Herr. Würden Sie mich mit den Einzelheiten
+des Projektes vertraut machen?
+
+\ahspeaks
+Die Idee ist einfach genial –- am 14. Adar schlagen wir die Zionisten
+in unserem Reich tot, und nehmen ihren Besitz in unseren Besitz! Na, was sagst du dazu?
+
+\StageDir{\m падает в обморок.}
+
+\ahspeaks
+In Ohnmacht gefallen vor lauter Freude!
+
+\uespeaks
+Achaschwerosch wusste nicht, dass gute Juden und Zionisten
+das Gleiche sind. Was geschieht jetzt?
+
+
+\scene
+
+\StageDir{Входит \e.}
+
+\espeaks
+Mordechai, mein lieber Vater, was ist dir zugestoßen?
+
+\mspeaks \direct{Поёт на мотив \textsc{Крутится вертится шар голубой}}
+\begin{verse}
+Злобный Аман хочет нам отомстить,\\
+Чёрную сотню на нас напустить.\\
+Хочет евреев совсем извести.\\
+Как бы угрозу от нас отвести?\\
+\end{verse}
+
+\direct{Поёт на мотив \textsc{Тум балалайка}}
+\begin{verse}
+Ахашверошу подсунул доклад,\\
+Что сионисты господства хотят.\\
+Этот кретин уж указ подписал.\\
+Вот и конец для евреев настал.\\
+\end{verse}
+
+\direct{Поёт на мотив \textsc{Крутится вертится шар голубой}}
+\begin{verse}
+Эстер, голубка, твой час наступил,\\
+Действуй скорее, дай Бог тебе сил!\\
+Нужно, чтоб царь отменил свой указ,\\
+Чтобы не думал он плохо о нас.\\
+\end{verse}
+              
+
+\uespeaks
+Mordechai hat seiner klugen Tochter alles erzählt. Deine Stunde
+ist gekommen, -- hat er gesagt –- bitte, klär deinen ungebildeten Mann auf,
+wer die Zionisten sind. Nur du kannst unser Volk retten!
+
+\espeaks \direct{Поёт на мотив припева \textsc{Прекрасная маркиза}}
+\begin{verse}
+Ах, Мордехай, какое это горе,\\
+Какой кошмар, какой кошмар!\\
+Сейчас с царём находимся мы в ссоре,\\
+А месяц близится Адар!\\
+\end{verse}
+
+\begin{verse}
+А если я к нему приду --\\
+Накличу на себя беду.\\
+Я не смогу помочь тогда народу,\\
+Угрозы я не отведу!\\
+\end{verse}
+
+
+\mspeaks \direct{Поёт на мотив \textsc{Прекрасная маркиза}}
+\begin{verse}
+Ах, не проста, Эстер, твоя задача,\\
+В молитве силы почерпни\\
+И попостись, тогда придёт удача.\\
+Остались считанные дни!\\
+\end{verse}
+
+\speaker{Э.}
+Я так волнуюсь, Мордехай!
+
+\speaker{М.}
+Иди скорей, и не вздыхай.
+
+\speaker{Э.}
+Зависит от меня судьба евреев.
+
+\speaker{М.}
+Вперед, Эстер, не подкачай!
+
+
+\mspeaks
+\begin{verse}
+А вы, евреи, дома не сидите.\\
+Настал ваш день, настал ваш час!\\
+И в синагогу вы скорей бегите,\\
+Молитесь, милые, за нас.\\
+\end{verse}
+
+
+\StageDir{Музыка продолжается.\\ \m и \e уходят.}
+
+\uespeaks
+Oh weh! –- hat Ester zu Mordechai gesagt, -- ich befinde mich
+gerade auf Kriegsfuß mit meinem Mann. Wenn ich zu ihm gehe,
+verliere ich meinen Kopf, dann bin ich für unser Volk absolut unnütz!
+
+Lies die Tora, -- hat Mordechai Ester gesagt, -- und Fasten
+schadet auch nicht. Und ihr, Juden, betet auch mit, denn die Zeit läuft.
+
+
+\scene
+
+\StageDir{Царские покои.\\ \ah.\\Входит \e.}
+
+\espeaks \direct{Поёт на мотив \textsc{Крутится вертится шар голубой}}
+\begin{verse}
+Милый, по делу к тебе я пришла,\\
+Страшную весть я тебе принесла.\\
+Выслушай, милый, казнить не вели:\\
+Чёрные силы интриги сплели.\\
+\end{verse}
+
+\ahspeaks \direct{Поёт на мотив \textsc{Крутится вертится шар голубой}}
+\begin{verse}
+Как хорошо, что пришла ты, жена.\\
+Я третий день всё терзаюсь без сна.\\
+Видно, я глупость опять совершил.\\
+Где-то, наверное, я нагрешил.\\
+\end{verse}
+
+
+\uespeaks
+Gott war gnädig zu Ester. Als sie zu Achaschwerosch kam, hat er sie
+bereits erwartet. Hilf mir, meine Liebe, -- hat er gesagt, -- ich habe letzte Zeit Alpträume.
+
+\StageDir{Бой барабанов.}
+
+\ahspeaks \direct{рассказывает}
+\begin{verse}
+Эстер, я видел страшный сон:\\
+Вороны надо мной летали,\\
+И больно в голову клевали,\\
+И гадили на царский трон.\\
+\end{verse}
+
+\begin{verse}
+Среди ворон кружит Аман,\\
+И убежать к тебе мешает.\\
+Мой трон помётом украшает,\\
+А я сижу, как истукан\ldots\\
+\end{verse}
+
+\begin{verse}
+Эстер, ты -- мудрая жена:\\
+В чём тайный смысл такого сна?\\
+\end{verse}
+
+
+\uespeaks
+In meinem Alptraum sitze ich auf meinem Herrscherthron, und Hamann fliegt
+mit den Krähen über meinem Kopf, und er kackt auf mich. Was kann das bedeuten?
+
+\espeaks \direct{торжественно}
+\begin{verse}
+Так знай же, царь, тот вещий сон\\
+Не просто так приснился.\\
+Тебя предупреждает он,\\
+Чтоб ты не оступился.\\
+\end{verse}
+
+\begin{verse}
+Коварную фальшивку\\
+Аман тебе подсунул,\\
+А ты схватил наживку.\\
+О чём тогда ты думал?\\
+\end{verse}
+
+\begin{verse}
+Собрав отребье с миру,\\
+Устроив здесь погром,\\
+Используя их силу,\\
+Взойдёт Аман на трон.\\
+\end{verse}
+
+\begin{verse}
+Евреи у тебя в стране --\\
+Врачи и музыканты,\\
+Приносят прибыли казне.\\
+Используй их таланты!\\
+\end{verse}
+
+\begin{verse}
+Ты разрешал им до сих пор\\
+Трудиться мирно, честно.\\
+И вдруг готовишь приговор\\
+Убить их повсеместно!\\
+\end{verse}
+
+
+\uespeaks
+"`Oh, mein Liebster, -- hat Ester zu ihm gesagt, -- das kann nur eines bedeuten:
+Dass du in große Scheiße geraten bist."' Und sie hat ihrem Mann alles erklärt:
+wer Zionisten sind, und wer Juden, und was für gute Menschen sie alle sind,
+und hat ihm Mordechais Verdienste wieder aufgelistet.
+
+
+\espeaks
+\begin{verse}
+Не мне беседу заводить\\
+О том, кто заговор раскрыл.\\
+Его хотел ты наградить,\\
+Но, как всегда, забыл.\\
+\end{verse}
+
+\begin{verse}
+Ты знай: как только сатана\\
+Тебе указ подложит --\\
+Погибнет и твоя жена,\\
+Ведь я -- еврейка тоже!\\
+\end{verse}
+
+\begin{verse}
+Кем станешь ты -- губителем\\
+Ста тысяч человек,\\
+Или царём-спасителем\\
+Сегодня -- и навек?\\
+\end{verse}
+
+
+\uespeaks
+Natürlich hat sie den bösen Hamann auch erwähnt, und seine
+"`Verdienste"' in Anführungsstrichen auch\ldots
+
+\StageDir{\e уходит.}
+
+
+\scene
+
+\StageDir{Входит \am.}
+
+\amspeaks \direct{Поёт на мотив \textsc{Когда б имел златые горы}}
+\begin{verse}
+Ты что сидишь мрачнее тучи?\\
+Опять случилась, что ль, беда?\\
+Смотри -- погромщиков докучи!\\
+Готовы к бою мы всегда!\\
+\end{verse}
+
+\begin{verse}
+Я разгромлю евреев стаи,\\
+Очищу землю от жидов.\\
+Ты награди меня медалью.\\
+Награду я принять готов!\\
+\end{verse}
+
+
+\ahspeaks
+\begin{verse}
+Ты хочешь от меня награды\\
+За то, что сам тут натворил.\\
+Собрал ты чёрные бригады,\\
+Народ к разбою ты подбил!\\
+\end{verse}
+
+\begin{verse}
+ООН прислал протеста ноту.\\
+Европа собирает рать,\\
+Чтобы за твою, Аман, работу\\
+Всех персов строго наказать.\\
+\end{verse}
+
+\begin{verse}
+За то, что ты -- такой вредитель,\\
+Отдам тебя я палачу.\\
+А Мордыхай -- он мой спаситель.\\
+Его я наградить хочу!\\
+\end{verse}
+
+
+\uespeaks
+Als Hamann zu Achaschwerosch am 14. Adar kam, von Tatendrang  erfüllt,
+hat Achaschwerosch ihn gefragt, was er als erster Minister machen würde,
+wenn Jemand für sein Land etwas außerordentlich Gutes täte. Hamann dachte,
+dass es sich um ihn handelte, und hat gesagt, dass man den gut belohnen soll.
+\par Und was man mit einem Verbrecher tun muss? Da dachte Hamann, dass es sich
+um Mordechai handelt, und sagte, dass man ihn hinrichten soll.
+
+
+\scene
+
+\StageDir{Выезжает \m на белом коне с израильским флагом.}
+
+\mspeaks
+\begin{verse}
+Пришли другие времена.\\
+Назло Аманским стаям\\
+Живёт народ, цветёт страна,\\
+И Пурим мы справляем!\\
+Израиль  вечно пусть живёт!\\
+Мы скажем все «лехаим»\\
+За весь еврейский наш народ:\\
+Лехаим! Лехаим! Лехаим!\\
+\end{verse}
+
+
+\uespeaks
+Und so geschah es. Der Verbrecher Hamann wurde hingerichtet,
+der gute Mordechai wurde belohnt mit seinem ganzen Volk. 
+Wir feiern heute Purim, wir lachen, singen, Trinken und sagen: Lechaim!
+
+\StageDir{Занавес закрывается. Звучит песня «Лехаим».\\Актёры выходим на поклон.}
+
+\end{drama}
+
+
+\end{document}
